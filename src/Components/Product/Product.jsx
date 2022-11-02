@@ -1,7 +1,16 @@
 import './product.css'
-const Product = () => {
+const Product = ({img, link}) => {
     return(
-        <div>This is product card</div>
+        <div className='product'>
+            <div className="product-browser">
+                <div className="product-circle"></div>
+                <div className="product-circle"></div>
+                <div className="product-circle"></div>
+            </div>
+            <a href={link} target='_blank' rel='noreferrer'>
+                <img src={img} alt="" className="product-img" />
+            </a>
+        </div>
     )
     
 }

@@ -1,0 +1,37 @@
+.Contact{
+    height: 100vh;
+    position: relative;
+}
+.Contact-bg{
+    width: 20px;
+    height: 100%;
+    background-color: rgb(156, 243, 56);
+    position: absolute;
+}
+.Contact-wrapper{
+    padding: 50px;
+    display: flex;
+}
+.Contact-Left{
+flex: 1;
+}
+.Contact-Right{
+flex: 1;
+}
+
+.Contact-title{
+    font-size: 60px;
+    width: 80%;
+}
+.Contact-Info-Item{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 90%;
+}
+.Contact-Icon{
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
