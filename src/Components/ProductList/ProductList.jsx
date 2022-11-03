@@ -7,7 +7,7 @@ const ProductList = () => {
             <div className="ProductList-teks">
                 <h1 className="ProductList-title">Portofolios by Yehoshua Yohan AA</h1>
                 <p className='ProductList-desc'>
-                Yehoshua Yohan is a recent graduate from the Informatics and Computer Engineering Education programme at Satya Wacana Christian University. He is now pursuing the field of Front End Engineer and is currently participating in training at Binar Academy.
+                Yehoshua Yohan is a fresh graduate from the Informatics and Computer Engineering Education programme at Satya Wacana Christian University. He is now pursuing the field of Front End Engineer and is currently participating in training at Binar Academy.
                 </p>
             </div>
 
