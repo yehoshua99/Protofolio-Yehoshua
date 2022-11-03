@@ -41,7 +41,7 @@ const ProductList = () => {
                         <div className='ProductList-Title'>
                             <h3>Simple Landing Page Tour Explore</h3>
                             <p>Developed using HTML,CSS, Bootstrap, Responsive.</p>
-                            {/* <a href='https://carrenty99.netlify.app/'>Click here to try it</a> */}
+                            <a href='https://yehoshua99.github.io/explore-page-simple/'>Click here to try it</a>
                         </div>
                         <div className="ProductList-list">
                             {ProductLandingPageExplore.map((item) => (

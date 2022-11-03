@@ -1,16 +1,20 @@
 .Contact{
     height: 100vh;
     position: relative;
+    /* border: solid 2px; */
 }
 .Contact-bg{
     width: 20px;
     height: 100%;
     background-color: rgb(156, 243, 56);
     position: absolute;
+    top: 35px;
 }
 .Contact-wrapper{
     padding: 50px;
     display: flex;
+    /* border: solid 2px; */
+    
 }
 .Contact-Left{
 flex: 1;
@@ -71,9 +75,14 @@ button{
     font-weight: 800;
     cursor: pointer;
 }
-@media screen and (max-widht: 480px){
+@media screen and (max-width: 480px){
     .Contact-wrapper{
         font-display: column;
+        display: flex;
+        flex-direction: column;
+    }
+    .Contact{
+        height: 220vh;
     }
     
 }
