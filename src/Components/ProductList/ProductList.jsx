@@ -5,9 +5,9 @@ const ProductList = () => {
     return(
         <div className="ProductList">
             <div className="ProductList-teks">
-                <h1 className="ProductList-title">Create & Inspire. It's Yehoshua Yohan</h1>
+                <h1 className="ProductList-title">Portofolios by Yehoshua Yohan AA</h1>
                 <p className='ProductList-desc'>
-                    Yehoshua Yohan is a Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur tempore soluta totam deserunt possimus fuga voluptate sequi. Voluptas perspiciatis rem similique sit nostrum, aut mollitia alias fugiat, est, excepturi quia!
+                Yehoshua Yohan is a recent graduate from the Informatics and Computer Engineering Education programme at Satya Wacana Christian University. He is now pursuing the field of Front End Engineer and is currently participating in training at Binar Academy.
                 </p>
             </div>
 
@@ -16,7 +16,7 @@ const ProductList = () => {
                         <div className='ProductList-Title'>
                             <h3>Car Rental</h3>
                             <p>Developed using the ReactJS Javascript framework, CSS using the Bootstrap framework, Responsive and there are API calls.</p>
-                            <a href='https://carrenty99.netlify.app/'>Click here to try it</a>
+                            <a href='https://carrenty99.netlify.app/'>Click here !!</a>
                         </div>
                         <div className="ProductList-list">
                             {ProductRentalCar.map((item) => (
@@ -28,7 +28,7 @@ const ProductList = () => {
                 <div className="ProductList-tow">
                         <div className='ProductList-Title'>
                             <h3>Portofolio</h3>
-                            <p>Developed using the ReactJS Javascript framework, EmailJS, Responsive.</p>
+                            <p>Developed using the ReactJS Javascript framework, EmailJS, Darkmode, Responsive.</p>
                             {/* <a href='https://carrenty99.netlify.app/'>Click here to try it</a> */}
                         </div>
                         <div className="ProductList-list">
@@ -41,7 +41,7 @@ const ProductList = () => {
                         <div className='ProductList-Title'>
                             <h3>Simple Landing Page Tour Explore</h3>
                             <p>Developed using HTML,CSS, Bootstrap, Responsive.</p>
-                            <a href='https://yehoshua99.github.io/explore-page-simple/'>Click here to try it</a>
+                            <a href='https://yehoshua99.github.io/explore-page-simple/'>Click here !!</a>
                         </div>
                         <div className="ProductList-list">
                             {ProductLandingPageExplore.map((item) => (

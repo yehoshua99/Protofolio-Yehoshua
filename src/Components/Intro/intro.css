@@ -38,7 +38,6 @@
 .intro-title-wrapper{
     height: 100%;
     animation: move 12s ease-in-out infinite alternate;
-    border: solid 2px;
 }
 @keyframes move {
     25%{
@@ -102,7 +101,7 @@
     .intro-title-wrapper{
         height: 100%;
         animation: move 12s ease-in-out infinite alternate;
-        border: solid 2px;
+        
     }
     .intro-title-item{
         height: 50px;

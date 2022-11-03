@@ -49,6 +49,11 @@ export const ProductPortofolio = [
         img: 'https://i.ibb.co/hZYw7th/Portofolio3.png',
         link: 'https://i.ibb.co/hZYw7th/Portofolio3.png',
     },
+    {
+        id: 4,
+        img: 'https://i.ibb.co/9ZRNcqC/Portofolio4.png',
+        link: 'https://i.ibb.co/9ZRNcqC/Portofolio4.png',
+    },
 ];
 
 export const ProductLandingPageExplore = [

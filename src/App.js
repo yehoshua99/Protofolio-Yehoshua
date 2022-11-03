@@ -15,7 +15,7 @@ function App() {
   const theme = useContext(ThemeContext)
   const darkMode = theme.state.darkMode;
   return (
-    <div style={{background: darkMode ? "#222" :"white", color: darkMode && 'white',}}>
+    <div style={{background: darkMode ? "#222" :"white", color: darkMode && 'white'}}>
       <Toggle/>
       <Intro/>
       <About/>
