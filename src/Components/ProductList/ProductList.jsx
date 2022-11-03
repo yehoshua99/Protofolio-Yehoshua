@@ -28,7 +28,7 @@ const ProductList = () => {
                 <div className="ProductList-tow">
                         <div className='ProductList-Title'>
                             <h3>Portofolio</h3>
-                            <p>Developed using the ReactJS Javascript framework, Responsive.</p>
+                            <p>Developed using the ReactJS Javascript framework, EmailJS, Responsive.</p>
                             {/* <a href='https://carrenty99.netlify.app/'>Click here to try it</a> */}
                         </div>
                         <div className="ProductList-list">

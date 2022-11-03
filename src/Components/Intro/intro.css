@@ -2,6 +2,7 @@
     display: flex;
     height: 100vh;
     
+    
 }
 .intro-left{
     flex: 1;
@@ -74,4 +75,22 @@
     position: absolute;
     top: 0;
     right: 0;
+}
+@media screen and (max-width: 480px){
+    .intro{
+        height: 150vh;
+        font-display: column;
+        border: solid 2px;
+        
+    }
+    .intro-left-wrapper{
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%;
+    }
+    .Intro-desc{
+        display: none;
+    }
 }

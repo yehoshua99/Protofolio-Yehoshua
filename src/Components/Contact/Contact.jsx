@@ -2,8 +2,25 @@ import './contact.css'
 import callme from '../../Assets/CallMe.png'
 import email from '../../Assets/email.png'
 import location from '../../Assets/Location.png'
+import { useContext, useRef, useState } from 'react'
+import emailjs from '@emailjs/browser';
+import { ThemeContext } from '../../context'
 
 const Contact = () => {
+    const formRef = useRef()
+    const [done,setDone] = useState(false)
+    const theme = useContext(ThemeContext)
+    const darkMode = theme.state.darkMode;
+
+    const handleSubmit = (e) => {
+        e.preventDefault();emailjs.sendForm('service_yr8fvig', 'template_4sobe2r', formRef.current, 'pndzEwJtLCR35pqgI')
+        .then((result) => {
+            console.log(result.text);
+            setDone(true)
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
   return (
     <div className='Contact'>
         <div className="Contact-bg"></div>
@@ -26,9 +43,17 @@ const Contact = () => {
                 </div>
             </div>
             <div className="Contact-Right">
-                <div className="Contact-desc">
-                    
-                </div>
+                <p className="Contact-desc">
+                    <b>What's your story</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sunt aut aspernatur nemo perspiciatis quis accusamus repellendus, quos dicta quisquam illum ab suscipit consectetur culpa, molestiae maxime, modi omnis quasi.
+                </p>
+                <form ref={formRef} onSubmit={handleSubmit}>
+                    <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder='Name' name='user_name'  />
+                    <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder='Subject' name='user_subject'  />
+                    <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder='Email' name='user_email'  />
+                    <textarea  style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder='Message' name='message'></textarea>
+                    <button>Submit</button>
+                    <p>{done && 'Your Message has been send'}</p>
+                </form>
             </div>
         </div>
     </div>
